@@ -2,6 +2,7 @@
 public class Person {
 	String eating,sleeping;
 	String studying,walking;
+	String flying;
 	public Person(InnerPersonClass p) {
 		this.eating = p.eating;
 		this.sleeping =p. sleeping;
