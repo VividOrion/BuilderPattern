@@ -10,11 +10,7 @@ public class Person {
 		this.walking = p.walking;
 	}
 	
-	@Override
-	public String toString() {
-		return "Person eating=" + eating + ", sleeping=" + sleeping + ", studying=" + studying + ", walking=" + walking
-				;
-	}
+	
 
 	public static class InnerPersonClass{
 		String eating,sleeping;
